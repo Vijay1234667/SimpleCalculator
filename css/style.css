@@ -7,7 +7,7 @@ body{
     overflow: hidden;
 }
 .simple-calculator h1{
-    font-size: 29px;
+    font-size: 40px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
@@ -28,20 +28,29 @@ body{
     width: 100%;
 
 }
+.bg-color{
+    background-color: #fa470bf4;
+    color: aliceblue;
+}
 .main-calculator-body input{
     border: 1px solid rgb(192, 169, 169);
-    padding: 4px;
+    padding: 7px;
+    border-radius: 3px;
     width: 100%;
     outline: none;
     max-width: 300px;
 }
 
 .main-calculator-body button{
-    width: 70px;
+    width: 60px;
+    height: 60px;
     padding: 10px;
-    margin: 2px;
+    font-size: 20px;
+    margin: 5px;
     font-weight: 500;
     border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
 }
 
 
