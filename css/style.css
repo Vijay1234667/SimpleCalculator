@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow: hidden;
+}
 .simple-calculator h1{
     font-size: 29px;
     font-weight: 700;
